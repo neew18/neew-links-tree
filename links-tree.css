@@ -1,3 +1,7 @@
+:root{
+  font-size: 62.5%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,81 +14,102 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+}
+
+main{
   height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  flex-direction: column;
 }
 
 .container {
-  width: 300px;
-  padding: 10px;
-  margin: auto;
+  width: 28rem;
+  padding: 1rem 2rem;
   background-color: rgba(255, 255, 255, 0.45);
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(15px);
-  max-width: 400px;
-  
+  border-radius: 2rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(1.5rem);
+  min-wdth:25rem;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
 }
 
 .image {
   width: 30%;
   height: auto;
-  border-radius: 180px;
+  border-radius: 1.5rem;
   display: block;
-  margin: 15px auto;
+  margin: 1rem auto;
 }
 
 hr{
   border-color: #673146;
 }
+
 h1,
 .occupation {
   text-align: center;
 }
 
 h1 {
-  font-family: Marker Felt, fantasy;
-  letter-spacing: 1px;
-  font-size: 22px;
+  font-family: Muli, sans-serif;
+  font-weight:700;
+  font-size: 2.3rem;
 }
 
 .occupation {
-  padding: 3px;
-  font-family: "Bradley Hand", cursive;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-family: "Space Mono", monospace;
 }
 .link-boxes {
-  margin: 10px;
-  font-family: Marker Felt, fantasy;
+  margin: 1rem;
+  font-family: Muli, sans-serif;
+  font-weight:700;
+  font-size: 1.4em;
+  text-transform:uppercase;
+  
 }
 
 .link-boxes a {
   text-decoration: none;
   display: block;
-  border: 1px solid  #673146;
+  border: 0.1rem solid  #673146;
   text-align: center;
-  margin: 10px;
-  border-radius: 5px;
-  padding: 5px;
+  margin: 0.7rem;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  transition: all 200ms ease-in-out;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
 }
 
 .link-boxes a:hover {
-  border: 1px solid #27213b;
+  border: 0.1rem solid #27213b;
   background-color:#f8923b;
 
 }
 
 .location {
-  text-align: right;
-  margin-bottom: 5px;
-  font-size: 12px;
-  font-family: Bradley Hand, cursive;
+  text-align: center;
+  margin: 0.7rem;
+  font-size: 1.2rem;
+  font-family: "Space Mono", monospace;
 }
 
+footer{
+  
+}
+/*
+.icon{
+  color:#f8923b;
+  background-color:#27213b;
+  padding:0.1em;
+  border-radius: 0.3em;
+}
+*/
 
 @media only screen and (min-width:992px){
 
@@ -92,10 +117,6 @@ h1 {
         width:40%;
     }
     h1{
-        font-size: 23px;
-    }
-
-    a{
-        font-size: 15px;
+        font-size: 2.4rem;
     }
 }
