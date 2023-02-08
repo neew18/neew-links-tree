@@ -1,3 +1,3 @@
-# neew-links-tree
+## Links of my accounts
 
-I made a web-page for my links. You can watch it [here](https://neew18.github.io/neew-links-tree/links-tree.html).
+I made a web-page for my links. You can watch it [here](https://neew18.github.io/neew-links-tree/).
